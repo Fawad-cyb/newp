@@ -1,0 +1,7 @@
+// print till fibonacci series reaches 13
+for(n=0 & m=1) do
+new=print(n+m)
+n=m;
+m=new
+for(new=13)
+break;
