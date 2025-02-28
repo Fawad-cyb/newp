@@ -1,0 +1,12 @@
+E = {0, 2, 4, 6, 8} 
+N = {1, 2, 3, 4, 5} 
+
+union_set = E | N 
+int_set = E & N 
+difference_set = E - N  
+symmetric_difference_set = E ^ N  
+
+print(union_set)
+print(int_set)
+print(difference_set)
+print(symmetric_difference_set)
